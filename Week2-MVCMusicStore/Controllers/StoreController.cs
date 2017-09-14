@@ -13,5 +13,15 @@ namespace Week2_MVCMusicStore.Controllers
         {
             return View();
         }
+        // GET: Browse
+        public ActionResult Browse(string genre)
+        {
+            ViewBag.Genre = genre;
+            return View();
+        }
+
     }
 }
+
+
+
